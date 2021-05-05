@@ -1,4 +1,4 @@
-"# UFO-Exam" 
+# UFO-Exam
 
 Latex pdf: [Click here](LatexClassifier.pdf)
 
