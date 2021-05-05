@@ -3,7 +3,7 @@
 \usepackage{graphicx}
 \usepackage[utf8]{inputenc}
 \usepackage{listings, xcolor}
-\usepackage{url}
+\usepackage[hyphens,spaces,obeyspaces]{url}
 \usepackage{placeins}
 
 
@@ -14,7 +14,7 @@
 \author{Kenneth Hansen- cph-kh415@cphbusiness.dk
     \and Martin Høigaard Cupello - cph-mr221@cphbusiness.dk}
 
-\title{Supervised Classifiers Comparison}
+\title{Supervised Classifiers Comparison} 
 
 \begin{document}
 \maketitle
@@ -23,9 +23,7 @@
 \clearpage
 
 \section{Introduction}
-In this paper we will compare different machine learning classifiers, and try to determine which one is the most accurate for supervised classification. We will use the popular iris dataset, to test different supervised machine learning algorithms, collect metrics, and finally apply the results to a new dataset to see if we can confirm our results.
-Our classifier candidates are Gaussian Naive Bayes, Multinomial Naive Bayes, KNN and Decision Tree
-
+In this paper we will compare different machine learning classifiers, and try to determine which one is the most accurate for supervised classification. We will use the popular iris dataset, to test different supervised machine learning algorithms, collect metrics, and finally test our findings against two other datasets to see if we can confirm our results and compare accuracy scores to find the best model.
 
 \section{Supervised learning}
 Supervised learning is a type of artificial intelligence and also a machine learning algorithm. The algorithm takes an input variable x and an output y, to learn how the input gets the desired output Y = f(X). This is normally done with a training dataset to produce an accurate prediction. It can be divided into two groups: Classification, where the model assigns a category based on the given input,  and regression, which is used to understand the relationship between dependent and independent variables.
@@ -39,9 +37,10 @@ How to choose K:
 A good estimate to choose K is to take the square root of n, where n is the size of your training data. However, depending on the size of the dataset, it might not be the best.
 
 \subsection{Gaussian Naive Bayes and Multinomial Naive Bayes}
-These classifiers are called “probabilistic classifiers” and use statistics to determine which category the data belongs to. They add together the probability of each input parameter and see which category the data is most likely to belong to. They are called “naive” since they all treat variables as independent of each other, but they use different algorithms to predict the result.
+These classifiers are called “probabilistic classifiers” and use statistics by adding the probability of each input parameter to determine which category the data is most likely to belong to. They are called “naive” since they all treat variables as independent of each other, but they use different algorithms to predict the result.
 The gaussian naive bayes uses a gaussian distribution, where the probability is calculated using the standard deviation and mean for each input.
 The multinomial naive bayes assumes that all distributions are multinomial, which means more than 2 input variables.
+
 
 \subsection{Decision Tree}
 The decision tree is a tree-like structure consisting of nodes and branches. The root node is the starting point which is the entire dataset. Then the node is split into decision nodes, based on the labels attributes.
@@ -167,18 +166,22 @@ Our last test will be on the wine-quality dataset. It is larger than the iris an
 Our results on this dataset shows that the decision tree is the best classifier in our case, while Multinomial Naive Bayes continues to be the worst of them all.
 
 \section{Results comparison}
-KNN(93,3\%, 83,3\%, 94,9\%)   \hfill            $\approx$ 90,5\%  \\
+KNN (93,3\%, 83,3\%, 94,9\%)   \hfill            $\approx$ 90,5\%  \\
 Gaussian Naive Bayes (83,3\%, 93,3\%, 98\%) \hfill     $\approx$ 91,5\%  \\
 Multinomial Naive Bayes (83,3\%, 80\%, 93\%) \hfill     $\approx$ 85,4\% \\
 Decision Tree (90,0\%, 93,3\%, 99,1\%) \hfill         $\approx$ 94,1\% \\
-
+\\
 From our results we can see that Decision Tree performs well in most cases, though it is not the most accurate one in all cases. Worst of all in MultiNomial Naive Bayes which got the lowest score in all cases.
 
 \section{Conclusion}
 In the end we can debunk our original hypothesis that there is a best classifier. We can conclude this because given our results there was no classifier that had the highest score on all of the datasets.It is impossible to decide beforehand which one is the best. We can then conclude that to find  the best classifier for your dataset, you have to try different models and see which one provides the best result.
 
 
-
-
+\section{Bibliography}
+\nocite{*}
+\raggedright
+\bibliography{bibliographyClassifier.bib}
+\bibliographystyle{plain}
+ 
 
 \end{document}
