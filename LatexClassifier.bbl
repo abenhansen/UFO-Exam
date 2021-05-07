@@ -1,0 +1,77 @@
+\begin{thebibliography}{10}
+
+\bibitem{BestK}
+Amey Band.
+\newblock How to find the optimal value of k in knn?
+\newblock
+  \url{https://towardsdatascience.com/how-to-find-the-optimal-value-of-k-in-knn-35d936e554eb}.
+\newblock 23 May 2020.
+
+\bibitem{NB}
+Jason Brownlee.
+\newblock Naive bayes for machine learning.
+\newblock
+  \url{https://machinelearningmastery.com/naive-bayes-for-machine-learning}.
+\newblock 15 August 2020.
+
+\bibitem{Supervised}
+Jason Brownlee.
+\newblock Supervised and unsupervised machine learning algorithms.
+\newblock
+  \url{https://machinelearningmastery.com/supervised-and-unsupervised-machine-learning-algorithms}.
+\newblock 20 August 2020.
+
+\bibitem{Tree2}
+Nagesh~Singh Chauhan.
+\newblock Decision tree algorithm, explained.
+\newblock
+  \url{https://www.kdnuggets.com/2020/01/decision-tree-algorithm-explained.html}.
+\newblock Junuary 2020.
+
+\bibitem{Tree}
+Davuluri~Hemanth Chowdary.
+\newblock Decision trees explained with a practical example.
+\newblock
+  \url{https://towardsai.net/p/programming/decision-trees-explained-with-a-practical-example-fe47872d3b53}.
+\newblock 28 May 2020.
+
+\bibitem{WineDataset}
+P.~Cortez.
+\newblock Wine quality data set.
+\newblock \url{https://archive.ics.uci.edu/ml/datasets/wine+quality}.
+\newblock 04 May 2021.
+
+\bibitem{IBM}
+IBM~Cloud Education.
+\newblock Supervised learning.
+\newblock \url{https://www.ibm.com/cloud/learn/supervised-learning}.
+\newblock 9 August 2020.
+
+\bibitem{KNNbasics}
+Onel Harrison.
+\newblock Machine learning basics with the k-nearest neighbors algorithm.
+\newblock
+  \url{https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761}.
+\newblock 10 September 2018.
+
+\bibitem{NBStack}
+jlund3.
+\newblock Naive bayes for machine learning.
+\newblock
+  https://stats.stackexchange.com/questions/33185/difference-between-naive-bayes-multinomial-naive-bayes.
+\newblock 22 july 2014.
+
+\bibitem{NBDG}
+Prateek Majumder.
+\newblock Gaussian naive bayes.
+\newblock \url{https://iq.opengenus.org/gaussian-naive-bayes}.
+\newblock 5 May 2021.
+
+\bibitem{KNN}
+Madison Schott.
+\newblock K-nearest neighbors (knn) algorithm for machine learning?
+\newblock
+  \url{https://medium.com/capital-one-tech/k-nearest-neighbors-knn-algorithm-for-machine-learning-e883219c8f26}.
+\newblock 22 April 2019.
+
+\end{thebibliography}
